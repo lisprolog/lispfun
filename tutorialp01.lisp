@@ -1,0 +1,20 @@
+(write ( + (* (/ 9 5) 60) 32) )
+(write-line "Hello SBCL!")
+(write '(* 2 3))
+(setq x 10)
+(setq y 43.567)
+(setq ch nil)
+(setq r 124/2)
+
+(print x)
+(print y)
+(print ch)
+(print r)
+
+(print (type-of x))
+(print (type-of y))
+(print (type-of ch))
+(print (type-of r))
+
+(defvar x 234)
+(write x)
