@@ -1,3 +1,4 @@
+;; not written by me, I keep it for lisp/prolog learning experiments
 (defun make-state (f w g c) (list f w g c))
 (defun farmer-side (state)
 (nth 0 state))
